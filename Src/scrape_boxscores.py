@@ -90,9 +90,15 @@ if __name__ == "__main__":
                         boxscores_for_date = []
                         time.sleep(60)
                 current_date = row["date"]
-            filtered_boxscores = list(filter(lambda link: row["team1"] in link, boxscores_for_date))
+            team1 = row["team1"]
+            team2 = row["team2"]
+            if team1 == "NOP" and season_start_date.year >= 2002 and season_end_date.year <= 2013:
+                team1 = "NOH"
+            elif team2 == "NOP" and season_start_date.year >= 2002 and season_end_date.year <= 2013:
+                team2 = "NOH"
+            filtered_boxscores = list(filter(lambda link: team1 in link, boxscores_for_date))
             if not filtered_boxscores:
-                boxscore_for_game = list(filter(lambda link: row["team2"] in link, boxscores_for_date))[0]
+                filtered_boxscores = list(filter(lambda link: team2 in link, boxscores_for_date))
             else:
                 boxscore_for_game = filtered_boxscores[0]
             d = {}
