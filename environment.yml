@@ -1,0 +1,83 @@
+name: nba-win-prob
+channels:
+- defaults
+dependencies:
+- appnope=0.1.0=py36hf537a9a_0
+- asn1crypto=0.24.0=py36_0
+- beautifulsoup4=4.6.0=py36h72d3c9f_1
+- certifi=2018.1.18=py36_0
+- cffi=1.11.4=py36h342bebf_0
+- chardet=3.0.4=py36h96c241c_1
+- cryptography=2.0.3=py36h22d4226_1
+- cycler=0.10.0=py36_0
+- decorator=4.2.1=py36_0
+- freetype=2.5.5=2
+- html5lib=1.0.1=py36h2f9c1c0_0
+- icu=58.2=h4b95b61_1
+- idna=2.6=py36h8628d0a_1
+- ipykernel=4.8.2=py36_0
+- ipython=6.2.1=py36h3dda519_1
+- ipython_genutils=0.2.0=py36h241746c_0
+- jedi=0.11.1=py36_0
+- jpeg=9b=he5867d9_2
+- jupyter_client=5.2.2=py36_0
+- jupyter_core=4.4.0=py36h79cf704_0
+- libcxx=4.0.1=h579ed51_0
+- libcxxabi=4.0.1=hebd6815_0
+- libedit=3.1=hb4e282d_0
+- libffi=3.2.1=h475c297_4
+- libiconv=1.15=hdd342a3_7
+- libpng=1.6.34=he12f830_0
+- libsodium=1.0.15=hd9e47c5_0
+- libxml2=2.9.7=hab757c2_0
+- libxslt=1.1.32=hb819dd2_0
+- lxml=4.1.1=py36hef8c89e_1
+- matplotlib=2.0.2=np113py36_0
+- mkl=2017.0.3=0
+- ncurses=6.0=hd04f020_2
+- numpy=1.13.1=py36_0
+- openssl=1.0.2l=0
+- pandas=0.20.3=py36_0
+- parso=0.1.1=py36hc90e01c_0
+- pexpect=4.4.0=py36_0
+- pickleshare=0.7.4=py36hf512f8e_0
+- pip=9.0.1=py36_1
+- prompt_toolkit=1.0.15=py36haeda067_0
+- ptyprocess=0.5.2=py36he6521c3_0
+- pycparser=2.18=py36h724b2fc_1
+- pygments=2.2.0=py36h240cd3f_0
+- pyopenssl=17.4.0=py36ha82324b_0
+- pyparsing=2.2.0=py36_0
+- pyqt=5.6.0=py36_2
+- pysocks=1.6.8=py36_0
+- python=3.6.3=hc655967_3
+- python-dateutil=2.6.1=py36_0
+- pytz=2017.2=py36_0
+- pyzmq=16.0.3=py36he48b5ad_0
+- qt=5.6.2=h9975529_14
+- readline=7.0=hc1231fa_4
+- requests=2.18.4=py36h4516966_1
+- scikit-learn=0.19.0=np113py36_0
+- scipy=0.19.1=np113py36_0
+- setuptools=36.4.0=py36_1
+- simplegeneric=0.8.1=py36_2
+- sip=4.18=py36_0
+- six=1.10.0=py36_0
+- sqlite=3.22.0=h3efe00b_0
+- tk=8.6.7=h35a86e2_3
+- tornado=4.5.3=py36_0
+- traitlets=4.3.2=py36h65bd3ce_0
+- urllib3=1.22=py36h68b9469_0
+- wcwidth=0.1.7=py36h8c6ec74_0
+- webencodings=0.5.1=py36h3b9701d_1
+- wheel=0.29.0=py36_0
+- xz=5.2.3=0
+- zeromq=4.2.2=ha360ad0_2
+- zlib=1.2.11=0
+- pip:
+  - ipython-genutils==0.2.0
+  - jupyter-client==5.2.2
+  - jupyter-core==4.4.0
+  - prompt-toolkit==1.0.15
+prefix: /Users/James/anaconda/envs/nba-win-prob
+
