@@ -100,8 +100,8 @@ ENV/
 # mypy
 .mypy_cache/
 
-# data folder
-/Data
+# backup data folder
+/Data/Backup
 
 # specifications folder
 /Specifications
