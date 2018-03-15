@@ -10,7 +10,7 @@ arguments:
   WARNING: if boxscores_csv_path or season_summaries_csv_path are not provided, the script will attempt to scrape the needed data. This requires an internet connection and will take time. THIS FEATURE IS CURRENTLY UNTESTED AND MAY NOT FUNCTION PROPERLY!
 
 ex: python single_game_prediction.py MIA CHO 2016-10-28 ../Data/nba_boxscores_1984_2018.csv ../Data/nba_season_summaries_1984_2018.csv
-''')
+'''
 
 import os
 import sys
