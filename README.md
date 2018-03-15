@@ -9,7 +9,7 @@ Use the provided environment.yml file to clone the project environment
 
 *python single_game_prediction.py home_team away_team game_date boxscores_csv_path season_summaries_csv_path*
 
-  **WARNING: In the current state of the script, predictions can only be made on games between the 1984 and 2017 NBA seasons if using the provided CSVs ([nba_boxscores_1984_2018.csv](/Data/nba_boxscores_1984_2018.csv) and [nba_season_summaries_1984_2018.csv](/Data/nba_season_summaries_1984_2018.csv))**
+  **WARNING: In the current state of the script, predictions can only be made on games between the start of the 1985 season and March 6th, 2018 if using the provided CSVs ([nba_boxscores_1984_2018.csv](/Data/nba_boxscores_1984_2018.csv) and [nba_season_summaries_1984_2018.csv](/Data/nba_season_summaries_1984_2018.csv))**
 
 Arguments:
   * home_team - 3 letter abbreviation for home team (basketball-reference boxscore initials)
